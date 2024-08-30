@@ -16,7 +16,8 @@ module.exports = {
                 // eight:'#ffdb70'
                 // eight:'#45a368',
                 // eight:'#fe7678',
-                eight:'#4c98f5'
+                // eight:'#4c98f5'
+                eight:"#4D9EE9"
             }
         },
     },
