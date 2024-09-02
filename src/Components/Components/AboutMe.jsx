@@ -1,5 +1,6 @@
 import React from 'react'
 import SegmentHeading from '../Common/SegmentHeading'
+import { skills } from '../../Database/db'
 
 const AboutMe = () => {
     return (
@@ -16,8 +17,22 @@ const AboutMe = () => {
             <p className='text-sm  text-fifth mt-5 leading-6'>
                 My focus is on building applications that are not only functional and intuitive but also visually appealing and engaging. I bring a personal touch to every project, ensuring your web app is both high-performing and uniquely tailored to your needs. My goal is to deliver your brand’s message through seamless and innovative web experiences. I have developed web solutions for renowned brands, enhancing their online presence with cutting-edge technologies.
             </p>
+            <div className='mt-4'>
+                <h1 className='text-seventh text-xl flex items-center font-semibold'>My Expert Area</h1>
+                <div className='mt-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+                    {
+                        skills?.map((d, i) => (
+                            <div key={i} className='flex items-center bg-forth p-2 rounded-md group'>
+                                <img src={d?.icons} alt="" className='w-[30px] h-[30px] flex items-center object-contain' />
+                                <p className='text-sm   text-fifth ms-2 group-hover:text-eight'>{d.name}</p>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+
         </>
     )
 }
 
-export default AboutMe
+export default AboutMe;

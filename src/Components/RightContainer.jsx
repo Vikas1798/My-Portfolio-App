@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Resume from './Components/Resume';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Education from './Components/Education';
 
 const RightContainer = () => {
     const [state, setState] = useState({
@@ -15,8 +15,8 @@ const RightContainer = () => {
             slug: 'about'
         },
         {
-            name: 'Resume',
-            slug: 'resume'
+            name: 'Education',
+            slug: 'education'
         },
         {
             name: 'Projects',
@@ -53,7 +53,7 @@ const RightContainer = () => {
                 state.segment === 'about' && <AboutMe />
             }
             {
-                state.segment === 'resume' && <Resume />
+                state.segment === 'education' && <Education />
             }
             {
                 state.segment === 'projects' && <Projects />

@@ -10,12 +10,12 @@ const App = () => {
                     <div className="xl:col-span-2 border-[1px] border-secondary bg-tertiary rounded-2xl">
                         <LeftContainer />
                     </div>
-                    <div className="xl:col-span-6  border-[1px] border-secondary bg-tertiary rounded-2xl">
+                    <div className="xl:col-span-6  border-[1px] border-secondary bg-tertiary rounded-2xl h-fit">
                         <RightContainer />
                     </div>
                 </div>
             </AppWrapper>
-            <p className="text-md text-fifth my-3 flex items-center justify-center">© {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
+            <p className="text-md text-fifth my-10 flex items-center justify-center">© {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
         </section>
     )
 }
