@@ -52,9 +52,9 @@ const LeftContainer = () => {
                 ))
             }
             <div className='mx-auto grid grid-cols-3 gap-2 w-[40%] mt-10'>
-                <Linkedin title='LinkedIn' onClick={() => window.open('https://www.linkedin.com/in/vikas-hk-frontend/', "_blank")} size={20} strokeWidth={2} className='flex items-center justify-center text-sixth cursor-pointer hover:text-eight' />
-                <Github title='GitHub' onClick={() => window.open('https://github.com/Vikas1798/', "_blank")} size={20} strokeWidth={2} className='flex items-center justify-center text-sixth cursor-pointer hover:text-eight' />
-                <MessageCircleMore title='whatsapp' onClick={() => window.open('https://web.whatsapp.com/', "_blank")} size={20} strokeWidth={2} className='flex items-center justify-center text-sixth cursor-pointer hover:text-eight' />
+                <Linkedin title='LinkedIn' onClick={() => window.open('https://www.linkedin.com/in/vikas-hk-frontend/', "_blank")} size={20} strokeWidth={2} className='mx-auto flex items-center justify-center text-sixth cursor-pointer hover:text-eight' />
+                <Github title='GitHub' onClick={() => window.open('https://github.com/Vikas1798/', "_blank")} size={20} strokeWidth={2} className='mx-auto flex items-center justify-center text-sixth cursor-pointer hover:text-eight' />
+                <MessageCircleMore title='whatsapp' onClick={() => window.open('https://web.whatsapp.com/', "_blank")} size={20} strokeWidth={2} className='mx-auto flex items-center justify-center text-sixth cursor-pointer hover:text-eight' />
             </div>
         </div>
     )

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Resume from './Components/Resume';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 
 const RightContainer = () => {
     const [state, setState] = useState({
@@ -50,7 +51,6 @@ const RightContainer = () => {
             </div>
             {
                 state.segment === 'about' && <AboutMe />
-
             }
             {
                 state.segment === 'resume' && <Resume />
@@ -59,11 +59,7 @@ const RightContainer = () => {
                 state.segment === 'projects' && <Projects />
             }
             {
-                state.segment === 'contact' &&
-                <>
-                    <h1 className='text-seventh text-3xl flex items-center  font-semibold'>Contact</h1>
-                    <div className='w-[60px] bg-eight mt-3 h-[5px] rounded-xl'></div>
-                </>
+                state.segment === 'contact' && <Contact />
             }
         </div>
     )

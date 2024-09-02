@@ -11,10 +11,10 @@ const AboutMe = () => {
                     // clipPath: "inset(10% 50% 90% 50% round 10px)",
                 }}
                 className='text-sm  text-fifth mt-5 leading-6'>
-                I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                I'm a Frontend Engineer from Bangalore, India, specializing in creating dynamic and responsive web applications. I thrive on transforming complex challenges into sleek, efficient, and user-friendly solutions.
             </p>
             <p className='text-sm  text-fifth mt-5 leading-6'>
-                My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+                My focus is on building applications that are not only functional and intuitive but also visually appealing and engaging. I bring a personal touch to every project, ensuring your web app is both high-performing and uniquely tailored to your needs. My goal is to deliver your brand’s message through seamless and innovative web experiences. I have developed web solutions for renowned brands, enhancing their online presence with cutting-edge technologies.
             </p>
         </>
     )
