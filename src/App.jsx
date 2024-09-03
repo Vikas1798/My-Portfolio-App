@@ -7,7 +7,7 @@ const App = () => {
         <section className="bg-primary h-full xl:py-10">
             <AppWrapper>
                 <div className="grid grid-cols-1 xl:grid-cols-8 gap-6">
-                    <div className="xl:col-span-2 border-[1px] border-secondary bg-tertiary rounded-2xl">
+                    <div className="xl:col-span-2 border-[1px] border-secondary bg-tertiary rounded-2xl h-fit">
                         <LeftContainer />
                     </div>
                     <div className="xl:col-span-6  border-[1px] border-secondary bg-tertiary rounded-2xl h-fit">
@@ -15,7 +15,8 @@ const App = () => {
                     </div>
                 </div>
             </AppWrapper>
-            <p className="text-md text-fifth my-10 flex items-center justify-center">© {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
+            <p className="text-md text-fifth mt-10 flex items-center justify-center">© {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
+            <p className="text-sm text-fifth my-2 pb-10 flex items-center justify-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p>
         </section>
     )
 }

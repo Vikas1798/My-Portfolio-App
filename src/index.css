@@ -36,6 +36,18 @@ body {
 
 }
 
-/* .test{
-    background: linear-gradient( to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100% ), hsl(240, 2%, 13%);
-} */
+
+@keyframes modal-slide-up {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-animate-slide-up {
+    animation: modal-slide-up 0.5s ease-out forwards;
+}
