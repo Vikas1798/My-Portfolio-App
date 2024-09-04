@@ -60,14 +60,14 @@ const Contact = () => {
         <>
             <SegmentHeading heading="Contact" subhead="Your questions and opportunities are just a message away." />
             <div className="mt-5">
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid sm:grid-cols-2 gap-4">
                     <input
                         type="text"
                         name="from_name"
                         value={formData.from_name}
                         onChange={handleChange}
                         placeholder="Full name"
-                        className="font-semibold py-[15px] px-[20px] text-seventh text-sm rounded-xl bg-forth"
+                        className="font-semibold py-[15px] px-[20px] text-seventh text-sm rounded-xl bg-forth w-full"
                     />
                     <input
                         type="email"
@@ -75,7 +75,7 @@ const Contact = () => {
                         value={formData.from_email}
                         onChange={handleChange}
                         placeholder="Email address"
-                        className="font-semibold py-[15px] px-[20px]  text-seventh text-sm rounded-xl bg-forth"
+                        className="font-semibold py-[15px] px-[20px]  text-seventh text-sm rounded-xl bg-forth w-full"
                     />
 
 
@@ -88,7 +88,7 @@ const Contact = () => {
                     placeholder="Message"
                     className="w-full mt-5 font-semibold py-[15px] px-[20px] bg-forth text-seventh text-sm rounded-xl "
                 />
-                <button className={`${open ? ' cursor-pointer ' : ' cursor-not-allowed'} py-[15px] px-[20px] bg-forth rounded-xl flex items-center justify-end mt-5 ms-auto`}
+                <button className={`${open ? ' cursor-pointer ' : ' cursor-not-allowed'} py-[15px] px-[20px] bg-forth rounded-xl flex items-center justify-center lg:justify-end mt-5 ms-auto w-full lg:w-fit`}
                     onClick={() => load ? null : sendEmail}
                 >
                     <Send size={16} strokeWidth={2} className="text-eight" />
