@@ -16,7 +16,7 @@ const App = () => {
                 </div>
             </AppWrapper>
             <p className="text-md text-fifth mt-10 flex items-center justify-center">© {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
-            <p className="text-sm text-fifth my-2 pb-10 flex items-center justify-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p>
+            <p className="text-sm text-fifth mt-2 pb-10 flex items-center justify-center text-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p>
         </section>
     )
 }

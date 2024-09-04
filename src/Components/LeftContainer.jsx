@@ -60,8 +60,9 @@ const LeftContainer = () => {
 
     return (
         <div className='p-5 relative'>
-            <div className='absolute text-green-400 right-2 top-2 cursor-pointer' title='Download Resume' onClick={openResume}>
-                <ArrowDownToLine size={20} strokeWidth={2.5} className='text-[#45a368]' />
+            <div className='absolute bg-[#45a368] right-2 top-2 cursor-pointer px-2 py-1 rounded-lg flex items-center' title='Download Resume' onClick={openResume}>
+                <p className='text-[10px] text-seventh'>Resume</p>
+                <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh ms-1' />
             </div>
             <img src={myImage} alt="" className='h-[150px] w-fit mx-auto bg-[#3d3c3e] my-10 rounded-2xl' />
             <h1 className='text-eight text-2xl flex items-center justify-center font-[500]'>VIKAS H K</h1>

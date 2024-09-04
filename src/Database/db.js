@@ -133,14 +133,14 @@ const experience = [
         duration:"July 2021 - Present",
         skills:["HTML5", "CSS3", "Tailwind", "Material Tailwind","node-sass", "Javascript", "React", "Git", "GitHub", "Bitbucket", "Postman","Ant Design", "Bootstrap","Material UI"],
         about:[
-            "Engineered a resilient web application, employing React.js, Redux, Material-UI (MUI), Tailwind CSS, and dynamic routing, to facilitate user interaction on Global-garner <b class='text-white cursor-pointer hover:underline'>https://globalgarner.com/</b>. The platform hosts over <b class='text-white'> 20+ services </b> and having user-base <b class='text-white'> 1 Lakh </b>.",
+            "Engineered a resilient web application, employing React.js, Redux, Material-UI (MUI), Tailwind CSS, and dynamic routing, to facilitate user interaction on Global-garner <b class='text-white cursor-pointer hover:underline'><a href='https://globalgarner.com/' target='_blank'>https://globalgarner.com/</a></b>. The platform hosts over <b class='text-white'> 20+ services </b> and having user-base <b class='text-white'> 1 Lakh </b>.",
             "Designed and managed various services including Brands vouchers, lab tests, ﬂight & bus bookings by utilizing <b class='text-white'> Reusable components </b> along with <b class='text-white'> Custom hooks </b> , Higher order components , <b class='text-white'>Skeleton eﬀect/Shimmer eﬀect , Inﬁnite scrolling, Dynamic API handing </b>.",
             "Implemented a cart system allowing users to add and manage items across diﬀerent services seamlessly. Developed a common utility to <b class='text-white'>manage multiple payment gateways, wallet systems, and coin redemption,</b> on checkout along with <b class='text-white'>dynamic routing </b> & and also handle private routes/Unauthorized routes.",
-            "Integrated <b class='text-white'>seat mapping </b> functionality for services requiring seat selection, ensuring a smooth booking experience for users. Managed concurrency for seat selection for ticket booking.",
-            "Implemented a <b class='text-white'>tree structure </b> for cashback and commission distribution, facilitating transparent and eﬃcient reward systems for users and parents.",
+            "Integrated <b class='text-white'>Seat mapping </b> functionality for services requiring seat selection, ensuring a smooth booking experience for users. Managed concurrency for seat selection for ticket booking.",
+            "Implemented a <b class='text-white'>Tree structure </b> for cashback and commission distribution, facilitating transparent and eﬃcient reward systems for users and parents.",
             "Utilized technologies such as <b class='text-white'>React.js, Redux, SCSS, Tailwind CSS, Bootstrap, Axios, Firebase, and Git </b> to develop and maintain the platform."
         ]
     }
 ]
 
-export { skills, education, experience};
+export { skills, education, experience };
