@@ -61,7 +61,7 @@ const LeftContainer = () => {
     return (
         <div className='p-5 relative'>
             <div className='absolute bg-[#45a368] right-2 top-2 cursor-pointer px-2 py-1 rounded-lg flex items-center' title='Download Resume' onClick={openResume}>
-                <p className='text-[10px] text-seventh xl:flex hidden'>Resume</p>
+                <p className='text-[10px] text-seventh xl:flex hidden'>Resume text</p>
                 <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh xl:ms-1' />
             </div>
             <img src={myImage} alt="" className='h-[150px] w-fit mx-auto bg-[#3d3c3e] my-10 rounded-2xl' />
