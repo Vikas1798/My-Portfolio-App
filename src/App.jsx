@@ -56,13 +56,13 @@ const App = () => {
                     </div>
                 </AppWrapper>
                 <p className="text-md text-fifth mt-10 flex items-center justify-center">© {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
-                <p className="text-sm text-fifth mt-2 pb-10 flex items-center justify-center text-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p>
+                <p className="text-sm text-fifth mt-2 pb-16 xl:pb-10 flex items-center justify-center text-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p>
 
                 <div className="flex xl:hidden h-[50px] fixed bottom-0 bg-[#2b2b2cbf] bg-opacity-60 backdrop-blur-sm w-full z-50 p-2">
                     <div className="w-full  sm:w-[70%] grid grid-cols-4 gap-2 items-center mx-auto">
                         {
                             allSegment?.map((d, i) => (
-                                <p onClick={() => updateTab(d?.slug)} className={`text-sm flex items-center justify-center  ${state.segment === d.slug ? ' text-eight' : ' text-seventh'}`} key={i}>{d?.name}</p>
+                                <p onClick={() => updateTab(d?.slug)} className={`text-xs sm:text-sm flex items-center justify-center  ${state.segment === d.slug ? ' text-eight' : ' text-seventh'}`} key={i}>{d?.name}</p>
                             ))
                         }
                     </div>
