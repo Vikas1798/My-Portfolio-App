@@ -26,12 +26,12 @@ const AboutMe = () => {
                     <h1 className='text-seventh text-xl flex items-center font-semibold whitespace-nowrap'>My Expert Area</h1>
                     <div className='h-[1px] w-full bg-[#2b2b2cbf]'></div>
                 </div>
-                <div className='mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+                <div className='mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                     {
                         skills?.map((d, i) => (
                             <div key={i} className='flex items-center bg-forth p-2 rounded-md group'>
                                 <img src={d?.icons} alt="" className='w-[30px] h-[30px] flex items-center object-contain' />
-                                <p className='text-sm   text-fifth ms-2 group-hover:text-eight'>{d.name}</p>
+                                <p className='text-sm   text-fifth ms-2 group-hover:text-eight whitespace-nowrap truncate'>{d.name}</p>
                             </div>
                         ))
                     }
