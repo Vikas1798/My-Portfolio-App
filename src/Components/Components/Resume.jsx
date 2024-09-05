@@ -69,7 +69,10 @@ const Resume = () => {
                             <img src={item?.icon} alt="" className=' object-contain col-span-1 w-full h-fit rounded-md' />
                             <div className='col-span-7 bg-forth p-3 rounded-md '>
                                 <h6 className="text-[15px] font-semibold text-seventh">{item.name}</h6>
-                                <p className="text-[15px] text-eight">{item.duration}</p>
+                                <div className='gap-2 flex items-center'>
+                                    <p className="text-[15px] text-eight">{item.duration}</p>
+                                    <p className="text-[15px] text-seventh"> - ( {item.course} )</p>
+                                </div>
                                 <p className="text-[15px] text-fifth">{item.about}</p>
                             </div>
                         </div>
