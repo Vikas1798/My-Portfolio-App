@@ -11,7 +11,7 @@ const RightContainer = (props) => {
                 <div className='grid grid-cols-4 gap-3 px-4 py-3'>
                     {
                         props?.allSegment?.map((d, i) => (
-                            <p key={i} onClick={() => props?.updateTab(d?.slug)} className={`px-3 text-sm font-semibold flex items-center justify-center cursor-pointer ${props.segment === d.slug ? ' text-eight' : ' text-sixth hover:text-fifth'}`}>
+                            <p key={i} onClick={() => props?.updateTab(d?.slug)} className={`px-3 text-sm font-semibold flex items-center justify-center cursor-pointer ${props.segment === d.slug ? ' text-basicGreen' : ' text-sixth hover:text-fifth'}`}>
                                 {d?.name}
                             </p>
                         ))

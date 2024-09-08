@@ -115,13 +115,13 @@ const education = [
         duration:"2014 - 2016",
         about:"During my PUC, I focused on core Science subjects Physics, Chemistry, Mathematics, and Biology which built a strong foundation for my future studies. My participation in science related events and projects fueled my passion for scientific exploration and sharpened my critical thinking skills."
     },
-    {
-        icon:school,
-        name:"Jawahar Navodaya Vidyalaya, | Gajanuru, Shivamogga, Karnataka, India",
-        course:"High school",
-        duration:"2009 - 2013",
-        about:"From 6th to 10th grade, I built a strong foundation in academics, excelling in Mathematics and Science. I also broadened my skills through participation in sports, art, music, and social projects, which enhanced my creativity, teamwork, and problem-solving abilities."
-    }
+    // {
+    //     icon:school,
+    //     name:"Jawahar Navodaya Vidyalaya, | Gajanuru, Shivamogga, Karnataka, India",
+    //     course:"High school",
+    //     duration:"2009 - 2013",
+    //     about:"From 6th to 10th grade, I built a strong foundation in academics, excelling in Mathematics and Science. I also broadened my skills through participation in sports, art, music, and social projects, which enhanced my creativity, teamwork, and problem-solving abilities."
+    // }
 ]
 
 const experience = [

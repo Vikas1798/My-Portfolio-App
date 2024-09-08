@@ -20,9 +20,9 @@ const Resume = () => {
                 <div className='mt-5'>
                     {experience.map((item, index) => (
                         <div key={index} className="mt-3 bg-forth p-3 rounded-md ">
-                            <div className='flex items-center h-full'>
+                            <div className='block xl:flex items-center h-full'>
                                 <img src={item?.logo} alt="" className=' w-[130px] h-full cursor-pointer bg-[#202022] p-2 rounded-lg' onClick={() => window.open(item?.link, "_blank")} />
-                                <div className='text-start ms-4'>
+                                <div className='text-start mt-3 xl:mt-0 xl:ms-4'>
                                     <h6 className="text-md font-semibold text-seventh">{item.Company}</h6>
                                     <p className="text-sm text-eight">{item.duration}</p>
                                     <h6 className="text-sm font-semibold text-seventh">{item.jobProfile}</h6>
@@ -66,12 +66,12 @@ const Resume = () => {
                 <div className='mt-5'>
                     {education.map((item, index) => (
                         <div key={index} className="mt-3 grid grid-cols-8 gap-5 items-center">
-                            <img src={item?.icon} alt="" className=' object-contain col-span-1 w-full h-fit rounded-md' />
-                            <div className='col-span-7 bg-forth p-3 rounded-md '>
+                            <img src={item?.icon} alt="" className=' object-contain col-span-1 w-full h-fit rounded-md xl:flex hidden' />
+                            <div className='col-span-8 xl:col-span-7 bg-forth p-3 rounded-md '>
                                 <h6 className="text-[15px] font-semibold text-seventh">{item.name}</h6>
                                 <div className='gap-2 flex items-center'>
-                                    <p className="text-[15px] text-eight">{item.duration}</p>
-                                    <p className="text-[15px] text-seventh"> - ( {item.course} )</p>
+                                    <p className="text-[15px] text-basicGreen whitespace-nowrap">{item.duration}</p>
+                                    <p className="text-[15px] text-seventh line-clamp-1"> - ( {item.course} )</p>
                                 </div>
                                 <p className="text-[15px] text-fifth">{item.about}</p>
                             </div>

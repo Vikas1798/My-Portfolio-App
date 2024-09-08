@@ -17,7 +17,12 @@ module.exports = {
                 // eight:'#45a368',
                 // eight:'#fe7678',
                 // eight:'#4c98f5'
-                eight:"#4D9EE9"
+                eight:"#4D9EE9",
+
+                // basicGreen:"#7bab25" 
+                // basicGreen:"#9FB873" 
+                basicGreen:"#4edb53"
+
             }
         },
     },

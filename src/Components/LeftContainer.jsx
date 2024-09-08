@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Smartphone, Mail, Github, Linkedin, MapPin, MessageCircleMore, PhoneOutgoing, Copy, ArrowDownToLine, ChevronDown, ChevronUp } from 'lucide-react';
-import myImage from '../Assets/Image/myImage.png'
+import myImage from '../Assets/Image/portfolio-image.jpg'
 
 const LeftContainer = () => {
     const [state, setState] = useState({
@@ -22,12 +22,14 @@ const LeftContainer = () => {
         {
             label: "GitHub",
             value: "https://github.com/Vikas1798/",
-            icon: Github
+            icon: Github,
+            redirect: true
         },
         {
             label: "LinkedIn",
             value: "https://www.linkedin.com/in/vikas-hk-frontend/",
-            icon: Linkedin
+            icon: Linkedin,
+            redirect: true
         },
         {
             label: "Location",
@@ -72,7 +74,7 @@ const LeftContainer = () => {
         <>
             {/* Web UI */}
             <div className='p-5 relative hidden xl:block'>
-                <div className='absolute bg-[#45a368] right-2 top-2 cursor-pointer px-2 py-1 rounded-lg flex items-center' title='Download Resume' onClick={openResume}>
+                <div className='absolute bg-basicGreen right-2 top-2 cursor-pointer px-2 py-1 rounded-lg flex items-center' title='Download Resume' onClick={openResume}>
                     <p className='text-[10px] text-seventh '>Resume</p>
                     <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh ms-1' />
                 </div>
@@ -88,7 +90,7 @@ const LeftContainer = () => {
                             </div>
                             <div className='text-start w-full overflow-hidden'>
                                 <p className='text-[12px] text-fifth'>{d?.label}</p>
-                                <h2 className='text-[14px] text-seventh whitespace-nowrap truncate' title={d?.value}>{d?.value}</h2>
+                                <h2 onClick={() => d?.redirect ? window.open(d?.value, "_blank") : null} className={`text-[14px] text-seventh whitespace-nowrap truncate ${d?.redirect ? 'cursor-pointer' : ''}`} title={d?.value}>{d?.value}</h2>
                             </div>
                         </div>
                     ))
@@ -126,11 +128,11 @@ const LeftContainer = () => {
             {/* Mobile UI */}
             <div className='block xl:hidden p-5 relative'>
                 <div onClick={() => showDetails(state?.openDetails ? false : true)}
-                    className='text-eight text-xs hidden sm:block absolute bg-[#2b2b2cbf] right-0 top-0 border-b-[1px] border-l-[1px] border-secondary rounded-bl-2xl rounded-tr-2xl  px-3 py-[4px] cursor-pointer'>
+                    className='text-basicGreen text-xs hidden sm:block absolute bg-[#2b2b2cbf] right-0 top-0 border-b-[1px] border-l-[1px] border-secondary rounded-bl-2xl rounded-tr-2xl  px-3 py-[4px] cursor-pointer'>
                     {state?.openDetails ? 'Close' : 'Show Contacts'}
                 </div>
                 <div onClick={() => showDetails(state?.openDetails ? false : true)}
-                    className='text-eight text-xs sm:hidden block absolute bg-[#2b2b2cbf] right-0 top-0 border-b-[1px] border-l-[1px] border-secondary rounded-bl-2xl rounded-tr-2xl  px-2 py-[4px] cursor-pointer'>
+                    className='text-basicGreen text-xs sm:hidden block absolute bg-[#2b2b2cbf] right-0 top-0 border-b-[1px] border-l-[1px] border-secondary rounded-bl-2xl rounded-tr-2xl  px-2 py-[4px] cursor-pointer'>
                     {state?.openDetails ? <ChevronUp size={14} strokeWidth={2} /> : <ChevronDown size={14} strokeWidth={2} />}
                 </div>
                 <div className='flex items-center'>
@@ -152,7 +154,7 @@ const LeftContainer = () => {
                                     </div>
                                     <div className='text-start w-full overflow-hidden'>
                                         <p className='text-[12px] text-fifth'>{d?.label}</p>
-                                        <h2 className='text-[14px] text-seventh whitespace-nowrap truncate' title={d?.value}>{d?.value}</h2>
+                                        <h2 onClick={() => d?.redirect ? window.open(d?.value, "_blank") : null} className={`text-[14px] text-seventh whitespace-nowrap truncate ${d?.redirect ? 'cursor-pointer' : ''}`} title={d?.value}>{d?.value}</h2>
                                     </div>
                                 </div>
                             ))
