@@ -44,7 +44,7 @@ const App = () => {
     return (
         <>
             <HelmetComponent />
-            <section className="bg-primary h-full xl:py-10 relative">
+            <section className="bg-primary  xl:py-10 relative min-h-screen">
                 <AppWrapper>
                     <div className="grid grid-cols-1 xl:grid-cols-8 gap-3 md:gap-6">
                         <div className="xl:col-span-2 border-[1px] border-secondary bg-tertiary rounded-2xl h-fit">
@@ -55,7 +55,7 @@ const App = () => {
                         </div>
                     </div>
                 </AppWrapper>
-                <p className="text-md text-fifth mt-10 flex items-center justify-center">©2021 - {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
+                <p className="text-md text-fifth py-10 flex items-center justify-center">© 2021 - {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
                 {/* <p className="text-sm text-fifth mt-2 pb-16 xl:pb-10 flex items-center justify-center text-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p> */}
 
                 <div className="flex xl:hidden h-[50px] fixed bottom-2   w-full z-50 p-2">
