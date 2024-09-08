@@ -55,7 +55,7 @@ const App = () => {
                         </div>
                     </div>
                 </AppWrapper>
-                <p className="text-md text-fifth py-10 flex items-center justify-center">© 2021 - {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
+                <p className="text-md text-fifth pb-10 flex items-center justify-center">© 2021 - {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
                 {/* <p className="text-sm text-fifth mt-2 pb-16 xl:pb-10 flex items-center justify-center text-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p> */}
 
                 <div className="flex xl:hidden h-[50px] fixed bottom-2   w-full z-50 p-2">
