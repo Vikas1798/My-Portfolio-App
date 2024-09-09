@@ -3,6 +3,7 @@ import AppWrapper from "./Components/Common/AppWrapper";
 import LeftContainer from "./Components/LeftContainer";
 import RightContainer from "./Components/RightContainer";
 import HelmetComponent from "./Components/Components/HelmetComponent";
+import { Mail } from "lucide-react";
 
 const App = () => {
     const [state, setState] = useState({
@@ -55,9 +56,13 @@ const App = () => {
                         </div>
                     </div>
                 </AppWrapper>
-                <p className="text-md text-fifth pb-10 flex items-center justify-center">© 2021 - {new Date().getFullYear()}. Vikas H K All rights reserved.</p>
-                {/* <p className="text-sm text-fifth mt-2 pb-16 xl:pb-10 flex items-center justify-center text-center">About this website : built with , Vite, Tailwind CSS, Framer Motion and Vercel hosting.</p> */}
-
+                <AppWrapper className='!pb-16 md:!pb-0'>
+                    <div className="md:flex justify-between  bg-forth p-2 rounded-md items-center">
+                        <p className="text-md text-fifth  flex items-center justify-center mb-2 md:mb-0">© 2021 - {new Date().getFullYear()} All rights reserved.</p>
+                        <p className="text-md text-fifth  flex items-center justify-center mb-2 md:mb-0">Made with ❤️ by <strong className="ms-2 cursor-pointer hover:underline" onClick={() => window.open('https://www.linkedin.com/in/vikas-hk-frontend/', "_blank")}> vikashk </strong></p>
+                        <p className="text-md text-fifth  flex items-center justify-center cursor-pointer mb-2 md:mb-0 hover:underline"><Mail size={18} strokeWidth={1.5} className="mr-2" />vikas17.hk@gmail.com</p>
+                    </div>
+                </AppWrapper>
                 <div className="flex xl:hidden h-[60px] fixed bottom-2   w-full z-50 p-2">
                     <div className="w-[90%] sm:w-[70%] grid grid-cols-4 gap-2 items-center mx-auto bg-[#2b2b2cbf] rounded-full bg-opacity-60 backdrop-blur-sm">
                         {

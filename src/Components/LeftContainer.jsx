@@ -74,7 +74,7 @@ const LeftContainer = () => {
         <>
             {/* Web UI */}
             <div className='p-5 relative hidden xl:block'>
-                <div className='absolute bg-basicGreen right-2 top-2 cursor-pointer px-2 py-1 rounded-lg flex items-center' title='Download Resume' onClick={openResume}>
+                <div className='absolute bg-[#fe7678] right-2 top-2 cursor-pointer px-3 py-1 rounded-full flex items-center' title='Download Resume' onClick={openResume}>
                     <p className='text-[10px] text-seventh '>Resume</p>
                     <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh ms-1' />
                 </div>
