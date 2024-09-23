@@ -78,7 +78,7 @@ const LeftContainer = () => {
                     <p className='text-[10px] text-seventh '>Resume</p>
                     <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh ms-1' />
                 </div>
-                <img src={myImage} alt="" className='h-[150px] w-fit mx-auto bg-[#3d3c3e] my-10 rounded-2xl' />
+                <img src={myImage} alt="" className='h-[250px] w-full mx-auto bg-[#3d3c3e] my-5 rounded-2xl object-cover' />
                 <h1 className='text-eight text-2xl flex items-center justify-center font-[500]'>VIKAS H K</h1>
                 <p className='bg-forth text-sixth text-sm my-1 mx-auto px-4 py-1 rounded-md w-fit'>Frontend Engineer</p>
                 <div className='h-[1px] w-full bg-forth my-6'></div>

@@ -9,7 +9,8 @@ import json from '../Assets/Image/Skills/json.svg'
 import github from '../Assets/Image/Skills/github.svg'
 import git from '../Assets/Image/Skills/git.svg'
 import bitbucket from '../Assets/Image/Skills/bitbucket.svg'
-import next from '../Assets/Image/Skills/next.png'
+import next from '../Assets/Image/Skills/next.png';
+import reduxToolkit from '../Assets/Image/Skills/redux-toolkit.svg';
 import postman from '../Assets/Image/Skills/postman.svg'
 import mui from '../Assets/Image/Skills/mui.png'
 import socketIo from '../Assets/Image/Skills/socketIo.svg'
@@ -73,6 +74,14 @@ const skills = [
     {
         name:"Next.js",
         icons:next
+    },
+    {
+        name:"Redux",
+        icons:reduxToolkit
+    },
+    {
+        name:"Redux Toolkit",
+        icons:reduxToolkit
     },
     {
         name:"Material UI",
