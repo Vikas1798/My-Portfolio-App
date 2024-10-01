@@ -74,13 +74,22 @@ const LeftContainer = () => {
         <>
             {/* Web UI */}
             <div className='p-5 relative hidden xl:block'>
-                <div className='absolute bg-[#fe7678] right-2 top-2 cursor-pointer px-3 py-1 rounded-full flex items-center' title='Download Resume' onClick={openResume}>
-                    <p className='text-[10px] text-seventh '>Resume</p>
-                    <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh ms-1' />
+                <div className='absolute right-2 top-2 gap-2 flex items-center bg-forth px-2 py-1 rounded-full border-[0.5px] border-secondary'>
+                    <p className='text-xs text-sixth'>Open to work</p>
+
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-basicGreen opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-basicGreen"></span>
+                    </span>
                 </div>
+
                 <img src={myImage} alt="" className='h-[250px] w-full mx-auto bg-[#3d3c3e] my-5 rounded-2xl object-cover' />
                 <h1 className='text-eight text-2xl flex items-center justify-center font-[500]'>VIKAS H K</h1>
                 <p className='bg-forth text-sixth text-sm my-1 mx-auto px-4 py-1 rounded-md w-fit'>Frontend Engineer</p>
+                <div className='bg-[#fe7678] cursor-pointer px-3 py-1 rounded-full flex items-center w-fit mx-auto mt-2' title='Download Resume' onClick={openResume}>
+                    <p className='text-[10px] text-seventh '>Resume</p>
+                    <ArrowDownToLine size={14} strokeWidth={2} className='text-seventh ms-1' />
+                </div>
                 <div className='h-[1px] w-full bg-forth my-6'></div>
                 {
                     info?.map((d, i) => (
@@ -141,6 +150,7 @@ const LeftContainer = () => {
                         <h1 className='text-eight text-2xl flex items-center text-start font-[500]'>VIKAS H K</h1>
                         <p className='bg-forth text-sixth text-sm mx-auto px-4 py-1 rounded-md w-fit my-2 line-clamp-1'>Frontend Engineer</p>
                     </div>
+
                 </div>
 
                 <div className={`transition-all duration-[1500ms] ease-in-out ${state?.openDetails ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}>

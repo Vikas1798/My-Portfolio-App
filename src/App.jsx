@@ -67,7 +67,7 @@ const App = () => {
                     <div className="w-[90%] sm:w-[70%] grid grid-cols-4 gap-2 items-center mx-auto bg-[#2b2b2cbf] rounded-full bg-opacity-60 backdrop-blur-sm">
                         {
                             allSegment?.map((d, i) => (
-                                <p onClick={() => updateTab(d?.slug)} className={` text-xs sm:text-sm flex items-center justify-center  ${state.segment === d.slug ? ' text-basicGreen' : ' text-seventh'}`} key={i}>{d?.name}</p>
+                                <p onClick={() => updateTab(d?.slug)} className={` text-xs sm:text-sm flex items-center justify-center  ${state.segment === d.slug ? ' text-eight' : ' text-seventh'}`} key={i}>{d?.name}</p>
                             ))
                         }
                     </div>
