@@ -9,7 +9,7 @@ const HelmetComponent = () => {
                 <title>VIKAS H K | Front-end Developer | Web Developer | React Developer | NextJs Developer | JavaScript | Material Tailwind - Bangalore, India</title>
                 <meta
                     name="description"
-                    content="John Doe is a Creative Director and UI/UX Designer from Sydney, Australia. Specializing in web development and print media, he turns complex problems into simple, beautiful, and intuitive designs. Explore his portfolio of web designs for famous brand companies."
+                    content="Vikas is a React Developer and Frontend Engineer from Bangalore, India. Specializing in web development and I turns complex problems into simple, beautiful, and intuitive designs. Explore his portfolio of web designs for famous brand companies."
                 />
                 <meta
                     name="keywords"
