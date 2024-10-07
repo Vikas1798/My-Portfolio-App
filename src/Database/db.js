@@ -55,18 +55,18 @@ const skills = [
         name:"Javascript",
         icons:javascript
     },
-    {
-        name:"JSON",
-        icons:json
-    },
+    // {
+    //     name:"JSON",
+    //     icons:json
+    // },
     // {
     //     name:"Axios",
     //     icons:''
     // },
-    {
-        name:"Socket.IO",
-        icons:socketIo
-    },
+    // {
+    //     name:"Socket.IO",
+    //     icons:socketIo
+    // },
     {
         name:"React",
         icons:react
@@ -91,22 +91,22 @@ const skills = [
         name:"Git",
         icons:git
     },
-    {
-        name:"GitHub",
-        icons:github
-    },
-    {
-        name:"Bitbucket",
-        icons:bitbucket
-    },
-    {
-        name:"Postman",
-        icons:postman
-    },
-    {
-        name:"VS Code",
-        icons:vscode
-    },
+    // {
+    //     name:"GitHub",
+    //     icons:github
+    // },
+    // {
+    //     name:"Bitbucket",
+    //     icons:bitbucket
+    // },
+    // {
+    //     name:"Postman",
+    //     icons:postman
+    // },
+    // {
+    //     name:"VS Code",
+    //     icons:vscode
+    // },
 ]
 
 const education = [
