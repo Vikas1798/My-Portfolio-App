@@ -2,7 +2,7 @@
 
 ## Tech Stack
 - HTML/CSS
-- Tailwind,
+- Tailwind
 - JavaScript (ES6)
 - React + Vite
 - Vercel for deployment
