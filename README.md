@@ -24,12 +24,12 @@
     https://vikas-hk-portfolio.vercel.app/
 
 ## Screenshots
-![Home Page Screenshot](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/1.png)
-![Home Page Screenshot : dark mode](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/2.png)
-![Order List Page Screenshot ](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/3.png)
-![Order List Page Screenshot : dark mode](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/4.png)
-![Order List Page Screenshot : dark mode](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/5.png)
-![Order List Page Screenshot : dark mode](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/6.png)
-![Order List Page Screenshot : dark mode](https://github.com/Vikas1798/juspay-dashboard/blob/master/src/assets/ProjectImages/7.png)
+![About Page Screenshot](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/1.png)
+![Resume Page Screenshot](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/2.png)
+![Project Page Screenshot ](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/3.png)
+![Contact Page Screenshot](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/4.png)
+![Mobile Screen Screenshot](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/5.png)
+![Mobile Screen Screenshot](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/6.png)
+![Mobile Screen Screenshot](https://github.com/Vikas1798/My-Portfolio-App/blob/main/src/assets/ProjectImages/7.png)
 
 
