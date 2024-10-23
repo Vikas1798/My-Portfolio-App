@@ -8,6 +8,11 @@ import cashaqua from '../../Assets/Image/cashaqua.png';
 import jagdai from '../../Assets/Image/jagdai.png';
 import jagods from '../../Assets/Image/jagods.png';
 import expo from '../../Assets/Image/expo.png';
+import userDashboard from '../../Assets/Image/userDashboard.png';
+
+
+
+
 import DialogComponent from '../Common/DialogComponent';
 
 
@@ -135,6 +140,21 @@ const Projects = () => {
                 "focusing on interactive elements like speaker profiles and registration forms.",
                 "Integrated Razorpay for secure payment processing during registration.",
                 "Ensured mobile-first design and optimized site performance, with deployment on bitbucket for fast and reliable hosting with continuous integration from Git."
+            ]
+        },
+        {
+            name: "User Dashboard",
+            date: "September, 2024 - September, 2024",
+            dec: "A website for a company webinar event to provide attendees with event details and registration options.",
+            image: userDashboard,
+            liveLink: "https://user-dashboard-zeta-one.vercel.app",
+            skills: [
+                'HTML/CSS', "Tailwind", 'Material Tailwind', 'JavaScript (ES6)', 'React + Vite', 'Redux-Toolkit', 'React Router Dom', 'React apexcharts'
+            ],
+            details: [
+                "Developed a responsive, component-based User Dashboard using React.js and Tailwind CSS.",
+                "focusing on interactive elements like Dark mode functionality, Local storage, Redux toolkit, Responsive Bar charts and Pie Chart charts - (react-apexcharts)",
+                "Ensured mobile-first design and optimized site performance, with deployment on Vercel for fast and reliable hosting with continuous integration from Git."
             ]
         },
     ]
