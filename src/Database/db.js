@@ -110,20 +110,20 @@ const skills = [
 ]
 
 const education = [
-    {
-        icon:sjbit,
-        name:"SJB Institute of Technology | Bengaluru, Karnataka, India.",
-        course:"Bachelor of Engineering - Computer Science and Engineering",
-        duration:"2016 - 2020",
-        about:"At SJBIT College, I engaged in coursework on algorithms, data structures, and software engineering, highlighted by a web app project for real-time collaboration. This experience sharpened my coding and teamwork skills, preparing me to tackle real-world challenges."
-    },
-    {
-        icon:puc,
-        name:"Kumadvathi Science and Commerce PU College | Shivamogga, Karnataka, India.",
-        course:"Pre-university college - Science - PCMB",
-        duration:"2014 - 2016",
-        about:"During my PUC, I focused on core Science subjects Physics, Chemistry, Mathematics, and Biology which built a strong foundation for my future studies. My participation in science related events and projects fueled my passion for scientific exploration and sharpened my critical thinking skills."
-    },
+    // {
+    //     icon:sjbit,
+    //     name:"SJB Institute of Technology | Bengaluru, Karnataka, India.",
+    //     course:"Bachelor of Engineering - Computer Science and Engineering",
+    //     duration:"2016 - 2020",
+    //     about:"At SJBIT College, I engaged in coursework on algorithms, data structures, and software engineering, highlighted by a web app project for real-time collaboration. This experience sharpened my coding and teamwork skills, preparing me to tackle real-world challenges."
+    // },
+    // {
+    //     icon:puc,
+    //     name:"Kumadvathi Science and Commerce PU College | Shivamogga, Karnataka, India.",
+    //     course:"Pre-university college - Science - PCMB",
+    //     duration:"2014 - 2016",
+    //     about:"During my PUC, I focused on core Science subjects Physics, Chemistry, Mathematics, and Biology which built a strong foundation for my future studies. My participation in science related events and projects fueled my passion for scientific exploration and sharpened my critical thinking skills."
+    // },
     // {
     //     icon:school,
     //     name:"Jawahar Navodaya Vidyalaya, | Gajanuru, Shivamogga, Karnataka, India",
@@ -140,7 +140,7 @@ const experience = [
         jobProfile:"React Developer",
         Company:"Global Garner Sales Services Limited",
         duration:"July 2021 - Present",
-        skills:["HTML5", "CSS3", "Tailwind", "Material Tailwind","node-sass", "Javascript", "React", "Git", "GitHub", "Bitbucket", "Postman","Ant Design", "Bootstrap","Material UI"],
+        skills:["HTML5", "CSS3", "Tailwind", "Material Tailwind","node-sass", "Javascript", "React", "Git", "GitHub", "Bitbucket", "Postman","Ant Design", "Bootstrap","Material UI", "Redux-toolkit", 'Apexcharts'],
         about:[
             "Engineered a resilient web application, employing React.js, Redux, Material-UI (MUI), Tailwind CSS, and dynamic routing, to facilitate user interaction on Global-garner <b class='text-white cursor-pointer hover:underline'><a href='https://globalgarner.com/' target='_blank'>https://globalgarner.com/</a></b>. The platform hosts over <b class='text-white'> 20+ services </b> and having user-base <b class='text-white'> 1 Lakh </b>.",
             "Designed and managed various services including Brands vouchers, lab tests, ﬂight & bus bookings by utilizing <b class='text-white'> Reusable components </b> along with <b class='text-white'> Custom hooks </b> , Higher order components , <b class='text-white'>Skeleton eﬀect/Shimmer eﬀect , Inﬁnite scrolling, Dynamic API handing </b>.",

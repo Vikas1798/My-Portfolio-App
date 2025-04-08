@@ -42,7 +42,7 @@ const Resume = () => {
                                     item?.about?.map((d, i) => (
                                         <div className='flex items-start mb-4 last:mb-0 gap-3 w-full ' key={i}>
                                             {/* <div className='p-[2px] bg-[#202022]  rounded-md'> */}
-                                            <Dot size={20} strokeWidth={3} className='text-seventh rounded-lg' />
+                                            <Dot size={24} strokeWidth={5} className='text-seventh rounded-lg' />
                                             {/* </div> */}
                                             <div className='text-start w-full overflow-hidden'>
                                                 <h2 className='text-[15px] text-fifth' dangerouslySetInnerHTML={{ __html: d }}></h2>
@@ -55,7 +55,7 @@ const Resume = () => {
                     ))}
                 </div>
             </div>
-            <div className="mt-5">
+            {/* <div className="mt-5">
                 <div className='flex items-center gap-2'>
                     <div className='p-2 bg-forth rounded-lg'>
                         <BookOpen size={20} strokeWidth={2} className='text-eight rounded-lg' />
@@ -78,7 +78,7 @@ const Resume = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

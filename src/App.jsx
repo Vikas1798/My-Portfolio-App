@@ -58,9 +58,9 @@ const App = () => {
                 </AppWrapper>
                 <AppWrapper className='!pb-16 md:!pb-0'>
                     <div className="md:flex justify-between  bg-forth p-2 rounded-md items-center">
-                        <p className="text-md text-fifth  flex items-center justify-center mb-2 md:mb-0">© 2021 - {new Date().getFullYear()} All rights reserved.</p>
-                        <p className="text-md text-fifth  flex items-center justify-center mb-2 md:mb-0">Made with ❤️ by <strong className="ms-2 cursor-pointer hover:underline" onClick={() => window.open('https://www.linkedin.com/in/vikas-hk-frontend/', "_blank")}> vikashk </strong></p>
-                        <p className="text-md text-fifth  flex items-center justify-center cursor-pointer mb-2 md:mb-0 hover:underline"><Mail size={18} strokeWidth={1.5} className="mr-2" />vikas17.hk@gmail.com</p>
+                        <p className="text-md text-seventh  flex items-center justify-center mb-2 md:mb-0">© 2021 - {new Date().getFullYear()} All rights reserved.</p>
+                        <p className="text-md text-seventh  flex items-center justify-center mb-2 md:mb-0">Made with ❤️ by <strong className="ms-2 cursor-pointer hover:underline" onClick={() => window.open('https://www.linkedin.com/in/vikas-hk-frontend/', "_blank")}> vikashk </strong></p>
+                        <p className="text-md text-seventh  flex items-center justify-center cursor-pointer mb-2 md:mb-0 hover:underline"><Mail size={18} strokeWidth={1.5} className="mr-2" />vikas17.hk@gmail.com</p>
                     </div>
                 </AppWrapper>
                 <div className="flex xl:hidden h-[60px] fixed bottom-2   w-full z-50 p-2">
