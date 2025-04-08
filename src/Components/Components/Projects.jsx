@@ -44,7 +44,7 @@ const Projects = () => {
         {
             name: "Franchise360 Brand Owner App",
             dec: 'Empowers businesses to build and manage their franchise network with tools for tracking performance, handling franchise requests, and driving expansion.',
-            date: "November, 2024 - Present",
+            date: "August, 2024 - Present",
             image: brandOwner,
             liveLink: "https://nirvana-dashboard.globalgarner.org/dashboard/brand-owner",
             skills: [
@@ -58,7 +58,7 @@ const Projects = () => {
         },
         {
             name: "Franchise360 Brand Promoter App",
-            date: "November, 2024 - Present",
+            date: "August, 2024 - Present",
             dec: "Enables promoters to earn through leads, referrals, and sales commissions, with real-time tracking and performance reporting.",
             image: brandPromoter,
             liveLink: "https://nirvana-dashboard.globalgarner.org/dashboard/brand-promoter",
@@ -73,7 +73,7 @@ const Projects = () => {
         },
         {
             name: "E-Commerce Customer App",
-            date: "January, 2025 - Present",
+            date: "August, 2024 - Present",
             dec: "After buying the franchise the user can opt for his own E-Commerce store to show the products added from his dashboard to his customers with features like product browsing, filtering, and search, buying, order summary,etc.",
             image: ecommerceApp,
             liveLink: "https://nirvana-ecommerce.globalgarner.org/",
