@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState, lazy } from "react";
 import AppWrapper from "./Components/Common/AppWrapper";
-import LeftContainer from "./Components/LeftContainer";
-import RightContainer from "./Components/RightContainer";
 import HelmetComponent from "./Components/Components/HelmetComponent";
 import { Mail } from "lucide-react";
+
+const LeftContainer = lazy(() => import('./Components/LeftContainer'));
+const RightContainer = lazy(() => import("./Components/RightContainer"));
+
 
 const App = () => {
     const [state, setState] = useState({
@@ -42,8 +44,27 @@ const App = () => {
         })
     }
 
+    const SuspenseLoader = () => {
+        return (
+            <div className="bg-primary min-h-screen xl:py-10 ">
+                <AppWrapper>
+                    <div className="grid grid-cols-1 xl:grid-cols-8 gap-3 md:gap-6 ">
+                        <div className="xl:col-span-2  h-fit">
+                            <div className="bg-tertiary h-[80vh] rounded-2xl "></div>
+                        </div>
+                        <div className="xl:col-span-6    h-fit">
+                            <div className="bg-tertiary h-[50vh] rounded-2xl "></div>
+                        </div>
+                    </div>
+                </AppWrapper>
+            </div>
+        )
+    }
+
     return (
-        <>
+        <Suspense fallback={<SuspenseLoader />}>
+
+
             <HelmetComponent />
             <section className="bg-primary  xl:py-10 relative min-h-screen">
                 <AppWrapper>
@@ -73,9 +94,9 @@ const App = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </Suspense>
+
     )
 }
 
 export default App;
-//
