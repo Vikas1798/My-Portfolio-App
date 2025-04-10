@@ -60,8 +60,8 @@ const LeftContainer = () => {
     const openResume = () => {
         // window.open('https://drive.google.com/file/d/1Upq63wbUyHSnzh5EHAtmjTxUxTPiOsMO/view', "_blank")
         // window.open('https://drive.google.com/file/d/10VjrEIl0AZtT1zQzp83uHdIZ5_fd9y7a/view', "_blank")
-        window.open('https://drive.google.com/file/d/1TRJqBtSFXfaCBMHN-TMmfTwhczoeWHms/view', "_blank")
-
+        // window.open('https://drive.google.com/file/d/1TRJqBtSFXfaCBMHN-TMmfTwhczoeWHms/view', "_blank")
+        window.open('https://drive.google.com/file/d/1CDKhuFo4cGTYqGsbuEKR4Cm8GnKBJ8p_/view', "_blank")
     }
 
     const showDetails = (key) => {
