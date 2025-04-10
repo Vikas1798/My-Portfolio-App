@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronRight, Dot, Eye } from 'lucide-react';
+import { ChevronRight, Dot, Eye, Link } from 'lucide-react';
 import SegmentHeading from '../Common/SegmentHeading'
 import userApp from '../../Assets/Image/user-app.png';
 import uposMall from '../../Assets/Image/upos-digital-mall.png';
@@ -243,7 +243,7 @@ const Projects = () => {
                     allProjects?.map((d, i) => (
                         <div key={i} className="group" onClick={() => getProjectDetails(true, d)}>
                             <figure className='w-full overflow-hidden rounded-2xl relative cursor-pointer'>
-                                <img src={d?.image} loading="lazy" alt="" className='w-full h-[200px] transition-all duration-500 group-hover:opacity-70 group-hover:scale-110' />
+                                <img src={d?.image} loading="lazy" alt="" className='w-full h-[170px] transition-all duration-500 group-hover:opacity-70 group-hover:scale-110' />
                                 <div className=" absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                                     <Eye size={16} strokeWidth={2} className="text-eight bg-secondary w-[50px] h-[50px] rounded-xl  p-3 transform scale-75 group-hover:scale-100 transition-transform duration-500" />
                                 </div>
@@ -289,7 +289,8 @@ const Projects = () => {
                     <div className='w-full mt-3'>
                         <button onClick={() => window.open(state?.isProjectDetail?.data?.liveLink, "_blank")}
                             className='flex items-center  rounded-lg border-[1px] border-eight justify-center gap-2 bg-seventh px-4 py-1 mx-auto w-[30%] hover:bg-eight group' >
-                            <p className='text-sm whitespace-nowrap text-eight group-hover:text-seventh'>Visit</p>
+                            <p className='text-sm whitespace-nowrap text-eight group-hover:text-seventh'>Live Link</p>
+                            <Link size={16} strokeWidth={2} className='text-eight rounded-lg group-hover:text-seventh' />
                         </button>
                     </div>
                 </>

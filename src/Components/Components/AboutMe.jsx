@@ -23,7 +23,7 @@ const AboutMe = () => {
                     <div className='p-2 bg-forth rounded-lg'>
                         <BrainCircuit size={20} strokeWidth={2} className='text-eight rounded-lg' />
                     </div>
-                    <h1 className='text-seventh text-xl flex items-center font-semibold whitespace-nowrap'>My Skills</h1>
+                    <h1 className='text-seventh text-xl flex items-center font-semibold whitespace-nowrap'>Tech stack</h1>
                     <div className='h-[1px] w-full bg-[#2b2b2cbf]'></div>
                 </div>
                 <div className='mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
